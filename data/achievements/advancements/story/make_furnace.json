@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": "“热”门话题",
+    "description": "用8块圆石制作一个熔炉"
+  },
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+		"minecraft:furnace"
+	          ]
+          }
+        ]
+      }
+    }
+  }
+}

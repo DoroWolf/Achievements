@@ -1,0 +1,27 @@
+{
+  "parent": "achievements:adventure/find_ocean_ruins",
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": "掘金人！",
+    "frame": "goal",
+    "description":"挖出一处埋藏的宝藏"
+  },
+  "criteria": {
+    "find_buried_treasure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "minecraft:buried_treasure"
+	    	}
+      }
+    },
+    "open_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  }
+}

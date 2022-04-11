@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:adventure/shoot_arrow",
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "弓箭手",
+    "description":"用箭杀死一个苦力怕"
+  },
+  "criteria": {
+    "shoot_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "creeper"
+	    	},
+        "killing_blow":{
+          "direct_entity":{
+            "type":"minecraft:arrow"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": "动物学家",
+    "frame": "goal",
+    "description": "用竹子喂养两只熊猫"
+  },
+  "criteria": {
+    "panda": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+        "type": "minecraft:panda"
+        }
+      }
+    }
+  }
+}

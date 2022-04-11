@@ -1,0 +1,34 @@
+{
+  "parent": "achievements:adventure/find_shipwreck",
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": "亚特兰蒂斯?",
+    "description":"找到一处海底废墟"
+  },
+  "criteria": {
+    "in_ocean_ruin_cold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "minecraft:ocean_ruin_cold"
+	    	}
+      }
+    },
+    "in_ocean_ruin_warm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "minecraft:ocean_ruin_warm"
+	    	}
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_ocean_ruin_cold",
+      "in_ocean_ruin_warm"
+    ]
+  ]
+}

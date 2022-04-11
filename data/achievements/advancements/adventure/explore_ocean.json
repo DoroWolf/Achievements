@@ -1,0 +1,114 @@
+{
+  "parent": "achievements:adventure/find_ocean_ruins",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_boat"
+    },
+    "title": "纵横七海",
+    "frame": "challenge",
+    "description":"探索所有海洋生物群系"
+  },
+  "criteria": {
+    "ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:ocean"
+	    	}
+      }
+    },
+    "deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_ocean"
+	    	}
+      }
+    },
+    "frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:frozen_ocean"
+	    	}
+      }
+    },
+    "deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_frozen_ocean"
+	    	}
+      }
+    },
+    "cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:cold_ocean"
+	    	}
+      }
+    },
+    "deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_cold_ocean"
+	    	}
+      }
+    },
+    "lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:lukewarm_ocean"
+	    	}
+      }
+    },
+    "deep_lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_lukewarm_ocean"
+	    	}
+      }
+    },
+    "warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:warm_ocean"
+	    	}
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ocean"
+    ],
+    [
+      "deep_ocean"
+    ],
+    [
+      "frozen_ocean"
+    ],
+    [
+      "deep_frozen_ocean"
+    ],
+    [
+      "cold_ocean"
+    ],
+    [
+      "deep_cold_ocean"
+    ],
+    [
+      "lukewarm_ocean"
+    ],
+    [
+      "deep_lukewarm_ocean"
+    ],
+    [
+      "warm_ocean"
+    ]
+  ]
+}

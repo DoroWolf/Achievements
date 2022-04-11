@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": "烤面包",
+    "description": "用小麦制作面包"
+  },
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+		"minecraft:bread"
+	          ]
+          }
+        ]
+      }
+    }
+  }
+}

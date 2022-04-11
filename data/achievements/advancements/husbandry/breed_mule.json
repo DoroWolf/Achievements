@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_carrot"
+    },
+    "title": "人工选择",
+    "description": "用马和驴繁殖一头骡子"
+  },
+  "criteria": {
+    "mule": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+        "type": "minecraft:mule"
+        }
+      }
+    }
+  }
+}

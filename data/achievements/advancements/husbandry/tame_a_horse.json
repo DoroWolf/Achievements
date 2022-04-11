@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": "上鞍",
+    "description": "驯化一匹马"
+  },
+  "criteria": {
+    "horse": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+            "type": "minecraft:horse"
+        }
+      }
+    }
+  }
+}
