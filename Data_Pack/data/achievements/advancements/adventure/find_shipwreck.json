@@ -4,8 +4,12 @@
     "icon": {
       "item": "minecraft:stripped_oak_log"
     },
-    "title": "啊嘿！",
-    "description":"找到一处沉船"
+    "title": {
+      "translate": "advancements.adventure.find_shipwreck.title"
+    },
+    "description":{
+      "translate": "advancements.adventure.find_shipwreck.description"
+    }
   },
   "criteria": {
     "in_shipwreck": {

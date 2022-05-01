@@ -4,9 +4,13 @@
     "icon": {
       "item": "minecraft:bamboo"
     },
-    "title": "动物学家",
+    "title": {
+      "translate": "advancements.husbandry.breed_panda.title"
+    },
     "frame": "goal",
-    "description": "用竹子喂养两只熊猫"
+    "description": {
+      "translate": "advancements.husbandry.breed_panda.description"
+    }
   },
   "criteria": {
     "panda": {

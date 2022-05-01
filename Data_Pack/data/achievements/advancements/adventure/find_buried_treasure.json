@@ -4,9 +4,13 @@
     "icon": {
       "item": "minecraft:heart_of_the_sea"
     },
-    "title": "掘金人！",
+    "title": {
+      "translate": "advancements.adventure.find_buried_treasure.title"
+    },
     "frame": "goal",
-    "description":"挖出一处埋藏的宝藏"
+    "description":{
+      "translate": "advancements.adventure.find_buried_treasure.description"
+    }
   },
   "criteria": {
     "find_buried_treasure": {

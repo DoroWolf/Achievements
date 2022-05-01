@@ -1,19 +1,24 @@
 {
-  "parent": "minecraft:adventure/kill_a_mob",
+  "parent": "minecraft:adventure/voluntary_exile",
   "display": {
     "icon": {
       "item": "minecraft:white_banner",
       "nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}"
     },
-    "title": "感觉不适",
-    "description":"杀死唤魔者"
+    "title": {
+      "translate": "advancements.adventure.kill_ravager.title"
+    },
+    "frame": "goal",
+    "description":{
+      "translate": "advancements.adventure.kill_ravager.description"
+    }
   },
   "criteria": {
-    "evoker": {
+    "ravager": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "evoker"
+          "type": "ravager"
 	    	}
       }
     }

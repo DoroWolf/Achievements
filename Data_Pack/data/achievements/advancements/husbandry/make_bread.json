@@ -4,8 +4,12 @@
     "icon": {
       "item": "minecraft:bread"
     },
-    "title": "烤面包",
-    "description": "用小麦制作面包"
+    "title": {
+      "translate": "advancements.husbandry.make_bread.title"
+    },
+    "description":{
+      "translate": "advancements.husbandry.make_bread.description"
+    }
   },
   "criteria": {
     "bread": {

@@ -4,8 +4,12 @@
     "icon": {
       "item": "minecraft:furnace"
     },
-    "title": "“热”门话题",
-    "description": "用8块圆石制作一个熔炉"
+    "title": {
+      "translate": "advancements.story.make_furnace.title"
+    },
+    "description":{
+      "translate": "advancements.story.make_furnace.description"
+    }
   },
   "criteria": {
     "furnace": {

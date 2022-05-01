@@ -4,8 +4,12 @@
     "icon": {
       "item": "minecraft:filled_map"
     },
-    "title": "亚特兰蒂斯?",
-    "description":"找到一处海底废墟"
+    "title": {
+      "translate": "advancements.adventure.find_ocean_ruins.title"
+    },
+    "description":{
+      "translate": "advancements.adventure.find_ocean_ruins.description"
+    }
   },
   "criteria": {
     "in_ocean_ruin_cold": {

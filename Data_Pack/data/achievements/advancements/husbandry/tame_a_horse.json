@@ -4,8 +4,12 @@
     "icon": {
       "item": "minecraft:apple"
     },
-    "title": "上鞍",
-    "description": "驯化一匹马"
+    "title": {
+      "translate": "advancements.husbandry.tame_a_horse.title"
+    },
+    "description":{
+      "translate": "advancements.husbandry.tame_a_horse.description"
+    }
   },
   "criteria": {
     "horse": {

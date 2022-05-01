@@ -4,8 +4,12 @@
     "icon": {
       "item": "minecraft:golden_carrot"
     },
-    "title": "人工选择",
-    "description": "用马和驴繁殖一头骡子"
+    "title": {
+      "translate": "advancements.husbandry.breed_mule.title"
+    },
+    "description":{
+      "translate": "advancements.husbandry.breed_mule.description"
+    }
   },
   "criteria": {
     "mule": {

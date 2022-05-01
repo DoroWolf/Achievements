@@ -4,9 +4,13 @@
     "icon": {
       "item": "minecraft:diamond_sword"
     },
-    "title": "赶尽杀绝",
+    "title": {
+      "translate": "advancements.adventure.over_kill.title"
+    },
     "frame": "challenge",
-    "description":"一击造成9颗心的伤害"
+    "description":{
+      "translate": "advancements.adventure.over_kill.description"
+    }
   },
   "criteria": {
     "overkill": {

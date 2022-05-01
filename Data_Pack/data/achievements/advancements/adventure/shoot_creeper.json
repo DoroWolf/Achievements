@@ -4,8 +4,12 @@
     "icon": {
       "item": "minecraft:creeper_head"
     },
-    "title": "弓箭手",
-    "description":"用箭杀死一个苦力怕"
+    "title": {
+      "translate": "advancements.adventure.shoot_creeper.title"
+    },
+    "description":{
+      "translate": "advancements.adventure.shoot_creeper.description"
+    }
   },
   "criteria": {
     "shoot_creeper": {

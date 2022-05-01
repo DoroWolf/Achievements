@@ -4,9 +4,13 @@
     "icon": {
       "item": "minecraft:oak_boat"
     },
-    "title": "纵横七海",
+    "title": {
+      "translate": "advancements.adventure.explore_ocean.title"
+    },
     "frame": "challenge",
-    "description":"探索所有海洋生物群系"
+    "description":{
+      "translate": "advancements.adventure.explore_ocean.description"
+    }
   },
   "criteria": {
     "ocean": {
