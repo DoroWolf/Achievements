@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:adventure/trade",
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": {
+        "translate": "advancements.adventure.discounted_trade.title"
+      },
+      "description": {
+        "translate": "advancements.adventure.discounted_trade.description"
+      }
+    },
+    "criteria": {
+      "discount": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "effects": {
+            "minecraft:hero_of_the_village": {}
+          }
+        }
+      },
+      "trade": {
+        "trigger": "minecraft:villager_trade"
+      }
+    }
+  }
