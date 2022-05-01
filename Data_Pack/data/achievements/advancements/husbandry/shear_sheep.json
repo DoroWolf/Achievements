@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:shears"
+    },
+    "title": {
+      "translate": "advancements.husbandry.shear_sheep.title"
+    },
+    "description":{
+      "translate": "advancements.husbandry.shear_sheep.description"
+    }
+  },
+  "criteria": {
+    "sheep": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "entity": {
+        "type": "minecraft:sheep"
+      },
+      "item": {
+        "item": "minecraft:shears"
+      }
+    }
+  }
+}

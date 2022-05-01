@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "advancements.adventure.kill_elder_guardian.title"
+    },
+    "frame": "goal",
+    "description":{
+      "translate": "advancements.adventure.kill_elder_guardian.description"
+    }
+  },
+  "criteria": {
+    "elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "elder_guardian"
+	    	}
+      }
+    }
+  }
+}
