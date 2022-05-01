@@ -13,14 +13,6 @@
     }
   },
   "criteria": {
-    "find_buried_treasure": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "feature": "minecraft:buried_treasure"
-	    	}
-      }
-    },
     "open_chest": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
