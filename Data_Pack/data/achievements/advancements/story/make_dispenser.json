@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "display": {
+    "icon": {
+      "item": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "advancements.story.make_dispenser.title"
+    },
+    "description":{
+      "translate": "advancements.story.make_dispenser.description"
+    }
+  },
+  "criteria": {
+    "dispenser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+		"minecraft:dispenser"
+	           ]
+          }
+        ]
+      }
+    }
+  }
+}

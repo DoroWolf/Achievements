@@ -7,7 +7,7 @@
     "title": {
       "translate": "advancements.adventure.over_kill.title"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "description":{
       "translate": "advancements.adventure.over_kill.description"
     }

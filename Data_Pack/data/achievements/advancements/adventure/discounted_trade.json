@@ -12,16 +12,21 @@
       }
     },
     "criteria": {
-      "discount": {
-        "trigger": "minecraft:effects_changed",
-        "conditions": {
-          "effects": {
-            "minecraft:hero_of_the_village": {}
-          }
-        }
-      },
       "trade": {
-        "trigger": "minecraft:villager_trade"
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "effects": {
+                  "minecraft:hero_of_the_village": {}
+                }
+              },
+              "entity": "this"
+            }
+          ]
+        }
       }
     }
   }
